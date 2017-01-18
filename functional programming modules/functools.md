@@ -1,6 +1,6 @@
-####functools
+##functools
 
-1. cmp_to_key(func)
+###cmp_to_key(func)
     
     transform comparison function to key function, used for sorted(),min(),max()...
 ```python
@@ -25,7 +25,7 @@ def cmp_to_key(mycmp):
     return K
 ```
 
-2. lru_cache(maxsize=128, typed=False)
+###lru_cache(maxsize=128, typed=False)
 ```python
 @lru_cache(maxsize=None)
 def fib(n):
